@@ -1,6 +1,8 @@
 <?php
 
-class Posts {
+namespace Models\entities;
+
+class Post {
 
 	private $id;
 	private $title;

@@ -1,6 +1,8 @@
 <?php
 
-class Users {
+namespace Models\entities;
+
+class User {
 
 	private $id;
 	private $pseudo;
@@ -22,7 +24,7 @@ class Users {
 
 	public function getPassword()
 	{
-		return $this->password
+		return $this->password;
 	}
 
 
@@ -38,7 +40,7 @@ class Users {
 	}
 
 
-	public function set Password($password)
+	public function setPassword($password)
 	{
 		$this->password = $password;
 	}

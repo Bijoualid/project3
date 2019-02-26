@@ -1,8 +1,11 @@
 <?php
 
-class Comments {
+namespace Models\entities;
+
+class Comment {
 
 	private $id;
+	private $id_posts;
 	private $author;
 	private $comment;
 	private $posted_date;
